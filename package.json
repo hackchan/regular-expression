@@ -1,0 +1,15 @@
+{
+  "name": "regular-expression",
+  "version": "1.0.0",
+  "description": "regular expression study guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "regular",
+    "expression"
+  ],
+  "author": "Fabio Rojas <fabiorojas7@gmail.com>",
+  "license": "MIT"
+}
