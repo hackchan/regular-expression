@@ -1,52 +1,52 @@
-# REGULAR EXPRE
+# REGULAR EXPRESSION
 
 regular-expression is a repository of regex reference
 
 ## Starting 🚀
 
-# Coincidencias Basicas
+# Basic Matches
 
 ```sh
- .    Cualquier Caracter, excepto nueva linea
-\d    Cualquier Digitos (0-9)
-\D    No es un Digito (0-9)
-\w    Caracter de Palabra (a-z, A-Z, 0-9, _)
-\W    No es un Caracter de Palabra.
-\s    Espacios de cualquier tipo. (espacio, tab, nueva linea)
-\S    No es un Espacio, Tab o nueva linea.
+ .    Any Character, except new line
+\d    Any Digits (0-9)
+\D    it is not a digit (0-9)
+\w    Word Character (a-z, A-Z, 0-9, _)
+\W    Not a Word Character.
+\s    Spaces of any kind. (space, tab, newline)
+\S    It is not a Space, Tab or new line.
 ```
 
-# Limites
+# Limits
 
 ```sh
-\b      Limite de Palabra
-\B      No es un Limite de Palabra
-^       Inicio de una cadena de texto
-$       Final de una cadena de texto
+\b Word Limit
+\B Not a Word Limit
+^  Beginning of a text string
+$  End of a text string
 ```
 
-# Cuantificadores
+# Quantifiers
 
 ```sh
-*      0 o Más
-+      1 o Más
-?      0 o Uno
-{3}    Numero Exacto
-{3,4}  Rango de Numeros (Minimo, Maximo)
+*     0 or More
++     1 or More
+?     0 or One
+{3}   Exact Number
+{3,4} Number Range (Minimum, Maximum)
 ```
 
-# Conjuntos de Caracteres
+# Character Sets
 
 ```sh
-[]    Caracteres dentro de los brackets
-[^ ]  Caracteres que NO ESTAN dentro de los brackets
+[]  Characters within brackets
+[^] Characters that ARE NOT inside the brackets
 ```
 
-# Grupos
+# Groups
 
 ```sh
-( )     Grupo
-|       Uno u otro
+( )  Group
+|    One or another
 ```
 
 ## practicing
@@ -56,10 +56,11 @@ practice one: [`ip valid`](https://regexr.com/6c9h8) regular expression.
 ```sh
 
 /^(\d{1,3}\.){3,3}(\d{1,3})$/gm
+```
 
 ## Built with🛠️
 
-- [Nodejs](https://nodejs.org/es/) - es un entorno de ejecución para JavaScript construido con V8
+- [Nodejs](https://nodejs.org/es/) - is a runtime environment for JavaScript built with V8
 
 ## Wiki 📖
 
@@ -72,8 +73,6 @@ We use [SemVer](http://semver.org/) for versioning. for all available versions s
 ## Authors ✒️
 
 - **Fabio Rojas** - Fullstack Development - [hackchan](https://gitlab.com/hackchan)
-
-
 
 ## license 📄
 
@@ -89,4 +88,3 @@ This project is under the MIT License - see the [LICENSE.md] (LICENSE) file for 
 ---
 
 ⌨️ with ❤️ by [hackchan] (https://gitlab.com/hackchan) 😊
-```
